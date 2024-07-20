@@ -1,0 +1,25 @@
+/* Institutions.css */
+#institutions {
+    padding: 20px;
+  }
+  
+  .gn-home-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .gn-divider {
+    margin: 20px 0;
+  }
+  
+  .gn-home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gn-home-card {
+    margin: 10px;
+    width: 150px;
+  }
+  

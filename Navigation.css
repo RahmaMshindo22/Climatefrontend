@@ -1,0 +1,88 @@
+/* Navigation.css */
+.gn-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .gn-menu-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .gn-menu-content-left,
+  .gn-menu-content-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gn-menu-content-left {
+    flex: 1;
+  }
+  
+  .gn-menu-content-right {
+    flex: 2;
+    justify-content: flex-end;
+  }
+  
+  .gn-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .gn-menu-list li {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  

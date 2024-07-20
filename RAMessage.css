@@ -1,0 +1,12 @@
+/* RAMessage.css */
+#ra-message {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #ra-message h3 {
+    text-align: center;
+    margin: 0;
+  }
+  

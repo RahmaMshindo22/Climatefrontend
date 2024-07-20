@@ -1,0 +1,36 @@
+/* Showcase.css */
+#showcase {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.gn-home-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gn-home-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gn-home-card a {
+  color: #007bff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gn-home-card i {
+  margin-bottom: 10px;
+}
+
+.gn-home-card:hover {
+  background-color: #e9ecef;
+}
